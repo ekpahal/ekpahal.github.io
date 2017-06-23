@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ek Pahal</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+ <!-- <script type="text/javascript">
+      myform2.mytextfield2.Enabled = false;
+          $(window).blur(function(){
+    $( "form #mytextfield2" ).focus();
+});
+$(window).focus(function(){
+  //your code
+  $( "form #mytextfield2" ).focus();
+});
+  </script> -->
+  <script type="text/javascript">
+        var index = false;
+        var text = "This text shifts to text box when clicked the button";
+        function DisplayText(){
+            if(!index){
+                document.getElementById("male").value = text;
+            }
+            else{
+                document.getElementById("male").value = "";
+            }
+
+            index = index ? false : true;
+        }
+        
+
+   </script>
+   <script type="text/javascript">
+     function myPop() {
+    var popup = document.getElementById("myPopup");
+    popup.classList.toggle("show");
+      }
+      /*function myPopout() {
+    var popup = document.getElementById("myPopup");
+    popup.classList.show("hide");
+      }*/
+   </script>
+</head>
+<body id="png" onclick="document.getElementById("male").blur();">
+<div class="action">
+	<div class="col-sm-4">
+		<h1 style="text-align: center;padding-top: 1em; ">Ek PAHAL</h1>
+	</div>
+	<div class="col-sm-8" style="padding-top: 5em;">
+		<div id="nav" >
+  			<div class="dropdown"  id="raj">
+    			<span id="menu" class="sliding-middle-out">About Us</span>
+    			<div class="dropdown-content" style="color: black;">
+      				<table id="tab">
+      				  <tr><td><a id="lk" href="about-us/#our-story">Our Story</a></td></tr>
+                <tr><td><a id="lk" href="about-us/#vision">Vision,Mission & Motto</a></td></tr>
+                <tr><td><a id="lk" href="people">People</a></td></tr>
+                <tr><td><a id="lk" href="team">Mentors</a></td></tr>
+      				</table>
+      			</div>
+    		</div>
+    		<div class="dropdown"  id="raj">
+    			<span id="menu" class="sliding-middle-out">Programs</span>
+    			<div class="dropdown-content">
+      				<table id="tab">
+      				  <tr><td><a id="lk" href="Community-school">Community School</a></td><td><a id="lk" href="gateway-fellowship">Gateway Fellowship</a></td></tr>
+                <tr><td><a id="lk" href="anwesha">Anwesha</a></td><td><a id="lk" href="taech-change">Teach for change (TFC)</a></td></tr>
+                <tr><td><a id="lk" href="swamanthan">Swamanthan</a></td><td><a id="lk" href="mentorship">1 to 1 Mentorship</a></td></tr>
+                <tr><td><a id="lk" href="aslp">ASLP</a></td><td></td></tr>
+      				</table>
+      			</div>
+    		</div>
+    			<span id="menu"><a href="impact" class="sliding-middle-out" style="color: white;text-decoration: none;">Impact</a></span>
+    		<div class="dropdown"  id="raj">
+    			<span id="menu" class="sliding-middle-out" >Get Involved</span>
+    			<div class="dropdown-content">
+      				<table id="tab">
+      				  <tr><td><a id="lk" href="https://docs.google.com/forms/d/e/1FAIpQLSeqXmylWXPt0xyHzFpbLFYLcUJP1USnYx9mhT0PGjKcImU0UQ/viewform">Donate Time</a></td></tr>
+                <tr><td><a id="lk" href="donate-resource">Donate Resources</a></td></tr>
+      				</table>
+      			</div>
+    		</div>
+    			<span id="menu" class="sliding-middle-out"><a href="contact-us" style="color: white;text-decoration: none;">Contact Us</a></span>
+    			
+	</div>	</div>		
+</div><div class="wrise home-demo" id="myform2">
+  <input autocomplete="false" class="ss-icon" name="mytextfield2" id="male" style="border: none;" spellcheck="false" type="text" onclick="DisplayText()"/>
+</div>
+<div class="end">
+  <div class="col-sm-5" style="position: relative;padding-left: 145px;">
+  <table>
+    <tr><td><span class="lay"><a id="lk" href="f:" target="_blank" style="color: black;">FAQ</a></span></td>
+    <td><span class="lay"><a id="lk" target="_blank" href="NewsLetter.pdf" style="color: black;">NewsLetter</a></span></td>
+    <td><span class="lay"><a id="lk" href="https://docs.google.com/forms/d/e/1FAIpQLSeTM9w08365IO1d8JRSohOV373yXiiuomTRMiQmfnKJ2EYuqg/viewform" target="_blank" title="We would love to hear your thoughts or feedback on how Ek PAHAL can improve !" style="color: black;">Feedback/Suggestions</a></span></td>
+  </table>
+ </div>
+  <div class="col-sm-7" style="text-align: right;padding-right: 170px;padding-bottom: 10px;">
+  <span class="lay">
+  <a id="lk1" href="https://www.youtube.com/channel/UCZsi6VlwfC9LO9KdfQHDbTQ" target="_blank"><img src="Images/YouTubeLogo.png" height="30px" ></a>
+    
+    
+  </span>
+  <span class="lay popup">
+  <img id="lk1" src="Images/whatsapp.png" height="30px" onmouseover="myPop()" onmouseleave="myPopout()">
+    <span id="myPopup" class="popuptext">9798891417</span>
+  </span>
+  <span class="lay">
+<a id="lk1" href="https://www.facebook.com/ekpahal.india" target="_blank"><img src="Images/fb.png" height="30px" ></a>
+    
+  </span>
+  </div>
+</div>
+
+</body>
+</html>
