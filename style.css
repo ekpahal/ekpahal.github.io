@@ -148,17 +148,17 @@ th,td {
     .ss-icon{font-size:80px;padding-top:12px;}
 }
 textarea:focus, input:focus {
-    font-size: 15px;
+    font-size: 25px;
 }
 
 input, select, textarea{
     text-decoration: none;
     background-color:#ff69b4;/*#faaab2; #FD5F00; #cccc00(204,204,0)* #ff4040(255, 64, 64)*/
-    font-size: 15px;
+    font-size: 25px;
 }
 input:focus {
     outline:none;
-    font-size: 15px;
+    font-size: 25px;
 }
 input{
     width: 80%;
