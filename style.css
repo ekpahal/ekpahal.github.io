@@ -158,9 +158,12 @@ input:focus {
     outline:none;
     font-size: 100px;
 }
+input{
+    size:5;
+}
 @media only screen and (min-device-width: 400px) {
     input { 
-       size: 10;
+       size: 15;
     }
 }
 .wrise{
@@ -178,7 +181,7 @@ input:focus {
     margin-bottom: 0px;
 }
 .end>.tex{
-    padding-left: 8%;
+    padding-left: 10%;
     padding-right: 8%;
 }
 .lay{
@@ -189,6 +192,10 @@ input:focus {
 table td + td { 
     border-left:2px solid #808080; 
     text-align: center;
+ }
+ .ico{
+    padding-right: 1%;
+    padding-left: 1%;
  }
 .wrise {
     background-color: red;
