@@ -178,22 +178,17 @@ input:focus {
     margin-bottom: 0px;
 }
 .end>.tex{
-    padding-left: 5px;
-}
-@media only screen and (min-device-width: 400px) {
-    .end>.tex{ 
-       padding-left: 145px;
-    }
+    padding-left: 8%;
+    padding-right: 8%;
 }
 .lay{
-    padding-left: 8px;
-    padding-right: 8px;
     font-weight: 500px;
     font-family: Roboto Slab;
     font-size: 16px;
 }
 table td + td { 
     border-left:2px solid #808080; 
+    text-align: center;
  }
 .wrise {
     background-color: red;
