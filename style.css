@@ -146,26 +146,35 @@ th,td {
     }
 }
 textarea:focus, input:focus {
-    font-size: 100px;
+    font-size: 15px;
 }
 
 input, select, textarea{
     text-decoration: none;
     background-color:#ff69b4;/*#faaab2; #FD5F00; #cccc00(204,204,0)* #ff4040(255, 64, 64)*/
-    font-size: 100px;
+    font-size: 15px;
 }
 input:focus {
     outline:none;
-    font-size: 100px;
+    font-size: 15px;
 }
 input{
     width: 80%;
 }
-/*@media only screen and (min-device-width: 400px) {
-    input { 
-       size: 15;
+@media only screen and (min-device-width: 400px) {
+    textarea:focus, input:focus {
+    font-size: 100px;
     }
-}*/
+}
+@media only screen and (min-device-width: 400px) {
+    input, select, textarea {
+    font-size: 100px;
+    }
+    input:focus {
+    outline:none;
+    font-size: 100px;
+    }
+}
 .wrise{
     padding: 40px;padding-top: 200px;
     color: #ffffff;
