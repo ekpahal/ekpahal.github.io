@@ -138,12 +138,14 @@ th,td {
 }
 .ss-icon{color:#fff}
 .ss-icon{display:block;font-style:normal;font-weight:400}
-.ss-icon{line-height:52px;font-size:100px;padding-top:8px}
-@media only screen and (max-width: 400px)
-{.ss-icon
-    {
-        font-size:100px;padding-top:12px;
-    }
+.ss-icon{line-height:52px;font-size:80px;padding-top:12px;}
+.ss-icon
+{
+    font-size:15px;padding-top: 8px;
+    line-height:52px;
+}
+@media only screen and (min-device-width: 400px) {
+    .ss-icon{font-size:80px;padding-top:12px;}
 }
 textarea:focus, input:focus {
     font-size: 15px;
@@ -163,9 +165,9 @@ input{
 }
 @media only screen and (min-device-width: 400px) {
     textarea:focus, input:focus {
-    font-size: 100px;
+    font-size: 80px;
     }
-}
+}/*
 @media only screen and (min-device-width: 400px) {
     input, select, textarea {
     font-size: 100px;
@@ -174,7 +176,7 @@ input{
     outline:none;
     font-size: 100px;
     }
-}
+}*/
 .wrise{
     padding: 40px;padding-top: 200px;
     color: #ffffff;
