@@ -139,10 +139,10 @@ th,td {
 .ss-icon{color:#fff}
 .ss-icon{display:block;font-style:normal;font-weight:400}
 .ss-icon{line-height:52px;font-size:100px;padding-top:8px}
-@media only screen and (max-width: 760px)
+@media only screen and (max-width: 400px)
 {.ss-icon
     {
-        font-size:100px;padding-top:12px
+        font-size:100px;padding-top:12px;
     }
 }
 textarea:focus, input:focus {
@@ -157,6 +157,11 @@ input, select, textarea{
 input:focus {
     outline:none;
     font-size: 100px;
+}
+@media only screen and (min-device-width: 400px) {
+    input { 
+       size: 10;
+    }
 }
 .wrise{
     padding: 40px;padding-top: 200px;
