@@ -182,8 +182,13 @@ input{
     color: #ffffff;
     /*background-color:#ff69b4;/*(255, 105, 180)-1 #FD5F00(253,95,0)-3 
     #cccc00(204,204,0)-4 #ff4040(255, 64, 64)-2*/
-    height: 450px;
     border-bottom: 2px solid;
+    height: 210px;
+}
+@media only screen and (min-device-width: 400px) {
+    .wrise{
+        height: 450px;
+    }
 }
 .end{
     padding-top: 24px;
