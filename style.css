@@ -198,7 +198,7 @@ input{
 }
 .end>.tex{
     padding-left: 10%;
-    padding-right: 8%;
+    padding-right: 22%;
 }
 .lay{
     font-weight: 500px;
@@ -210,11 +210,12 @@ table td + td {
     text-align: center;
  }
  .ico{
-    padding-right: 1%;
-    padding-left: 1%;
+    padding-right: 4%;
+    padding-left: 4%;
  }
 .wrise {
     background-color: red;
+    margin-top: 5px;
     -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
     -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
     animation-name: example;
