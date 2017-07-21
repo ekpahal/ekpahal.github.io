@@ -26,32 +26,25 @@
     opacity:0
 }
 .home-demo .font-slider{
-    bottom:42px;
     color:rgba(0,19,26,0.43);
     padding:0 0px;
-    width:30%
+    width:30%;
     }
-    @media only screen and (max-width: 500px)
-    {.home-demo .font-slider{display:none}}
-    .home-demo .font-slider.right:before, .font-slider.actions:before, .home-demo .font-slider
-    .actions:before,.home-demo .project-details .font-slider.actions:before,.project-details .home-demo
-     .font-slider.actions:before,.home-demo .account-projects .font-slider.actions:before,
-     .account-projects .home-demo .font-slider.actions:before,.home-demo .project-embed .font-slider
-     .actions:before,.project-embed .home-demo .font-slider.actions:before,.home-demo .icon-details 
-     .font-slider.actions:before,.icon-details .home-demo .font-slider.actions:before,.home-demo 
-     .downloads .font-slider.actions:before,.downloads .home-demo .font-slider.actions:before,
-     .home-demo .test .font-slider.actions:before,.test .home-demo .font-slider.actions:before,
-     .home-demo .font-slider:after
-    {
-        display:inline-block;font-size:10px;left:0;margin-top:19px;position:absolute;top:0}
-        .home-demo .font-slider:after{font-size:16px;left:auto;margin-top:16px;right:0}
-        .home-demo .font-slider input{width:100%}
-        .customers{margin-top:0;padding:72px 0;text-align:center}
-        .customers img{display:block}
-        .home-demo:hover .font-slider,.home-demo:hover label,.home-typer input:focus ~ .font-slider,.home-typer input:focus ~ label,.home-demo.active .font-slider,.home-demo.active label{
-            opacity:1;-webkit-transition:opacity 0.1s ease-out;-moz-transition:opacity 0.1s ease-out;
-            -ms-transition:opacity 0.1s ease-out;-o-transition:opacity 0.1s ease-out;
-    transition:opacity 0.1s ease-out}
+.col4{
+    width: 33%;
+    position: relative;
+  min-height: 1px;
+  float: left;
+}
+.col8{
+    width: 67%;
+    position: relative;
+  min-height: 1px;float: left;
+}/*
+@media (min-width: 0px) {
+  .col4,.col8{
+    float: left;
+  }*/
 #menu{
     /*font-weight: bold;*/
     padding-left: 8px;
@@ -138,27 +131,26 @@ th,td {
 }
 .ss-icon{color:#fff}
 .ss-icon{display:block;font-style:normal;font-weight:400}
-.ss-icon{line-height:52px;font-size:80px;padding-top:12px;}
+.ss-icon{line-height:152px;font-size:80px;}
 .ss-icon
 {
-    font-size:15px;padding-top: 8px;
-    line-height:52px;
+    font-size:35px;
 }
 @media only screen and (min-device-width: 400px) {
-    .ss-icon{font-size:80px;padding-top:12px;}
+    .ss-icon{font-size:80px;}
 }
 textarea:focus, input:focus {
-    font-size: 25px;
+    font-size: 35px;
 }
 
 input, select, textarea{
     text-decoration: none;
     background-color:#ff69b4;/*#faaab2; #FD5F00; #cccc00(204,204,0)* #ff4040(255, 64, 64)*/
-    font-size: 25px;
+    font-size: 35px;
 }
 input:focus {
     outline:none;
-    font-size: 25px;
+    font-size: 35px;
 }
 input{
     width: 80%;
@@ -178,12 +170,12 @@ input{
     }
 }*/
 .wrise{
-    padding: 40px;padding-top: 200px;
+    padding: 40px;padding-top: 150px;
     color: #ffffff;
     /*background-color:#ff69b4;/*(255, 105, 180)-1 #FD5F00(253,95,0)-3 
     #cccc00(204,204,0)-4 #ff4040(255, 64, 64)-2*/
     border-bottom: 2px solid;
-    height: 210px;
+    height: 200px;
 }
 @media only screen and (min-device-width: 400px) {
     .wrise{
@@ -217,39 +209,41 @@ table td + td {
     background-color: red;
     margin-top: 5px;
     -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 15s; /* Safari 4.0 - 8.0 */
     animation-name: example;
-    animation-duration: 10s;
+    animation-duration: 15s;
     animation-iteration-count:infinite;
 }
 
 #male {
     background-color: red;
     -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 15s; /* Safari 4.0 - 8.0 */
     animation-name: example;
-    animation-duration: 10s;
+    animation-duration: 15s;
     animation-iteration-count:infinite;
 }
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes example {
     0% {background-color: #ff69b4;}
-    13%{background-color: #f9687a;}
-    25% {background-color: #ff4040;}
-    50% {background-color: #de8f00;}
-    75% {background-color: #cccc00;}
-    100%{background-color:#ff69b4; }
+    10%{background-color: #f9687a;}
+    20% {background-color: #ff4040;}
+    40% {background-color: #de8f00;}
+    60% {background-color: #cccc00;}
+    77%{background-color:#0aaaf0; }
+    100% {background-color: #ff69d2;}
 }
 
 /* Standard syntax */
 @keyframes example {
     0% {background-color: #ff69b4;}
-    13%{background-color: #f9687a;}
-    25% {background-color: #ff4040;}
-    50% {background-color: #de8f00;}
-    75% {background-color: #cccc00;}
-    100%{background-color:#ff69b4; }
+    10%{background-color: #f9687a;}
+    20% {background-color: #ff4040;}
+    40% {background-color: #de8f00;}
+    60% {background-color: #cccc00;}
+    77%{background-color:#0aaaf0; }
+    100% {background-color: #ff69d2;}
 }
 .popup {
     position: relative;
