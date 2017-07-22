@@ -216,6 +216,7 @@ table td + td {
 }
 
 #male {
+    font-family: 'omnes';
     background-color: red;
     -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
     -webkit-animation-duration: 15s; /* Safari 4.0 - 8.0 */
