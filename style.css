@@ -50,7 +50,7 @@
     padding-left: 8px;
     margin-right: 25px; 
     color: #ffffff;
-    font-size: 20px;
+    font-size: 150%;
 }
  #menu1{
     padding-left: 2px;
@@ -124,7 +124,10 @@ th,td {
 #newstitle> #newsdiv:hover{
 
 }*/
-
+#menu:hover > .sliding-middle-out:after{
+    width: 100%;
+    background: #FD5F00;
+}
 .dropdown:hover >.sliding-middle-out:after {
     width: 100%;
     background: #FD5F00;
