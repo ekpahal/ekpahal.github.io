@@ -39,7 +39,7 @@
 .col8{
     width: 67%;
     position: relative;
-  min-height: 1px;float: left;
+  min-height: 1px;float: right;
 }/*
 @media (min-width: 0px) {
   .col4,.col8{
