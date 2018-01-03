@@ -1,3 +1,4 @@
+
 @font-face {
   font-family: 'Roboto Slab';
   font-style: normal;
@@ -6,14 +7,14 @@
   unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
 }
 .action{
-	height: 20em;
+	height: 19.5em;
 	background:url("Images/actionBG.png") 0 0 repeat #005073;
 	background:url("Images/actionBG.png") 0 0 repeat #005073;
 	color:#ffffff;
 }
 @media only screen and (min-device-width: 500px) {
     .action { 
-       height: 10em; 
+       height: 9em; 
     }
 }
 .home-demo .font-slider{
@@ -51,10 +52,10 @@
     font-size: 150%;
 }
  #menu1{
-    padding-left: 2px;
-    margin-right: 115px; 
+    padding-left: 1%;
+    margin-right: 5%; 
     color: #990000;
-    font-size: 20px;
+    font-size: 20%;
 }
 #nav{
 	text-align: right;
@@ -132,33 +133,33 @@ th,td {
 }
 .ss-icon{color:#fff}
 .ss-icon{display:block;font-style:normal;font-weight:400}
-.ss-icon{line-height:152px;font-size:80px;}
+.ss-icon{line-height:152px;font-size:200%;}
 .ss-icon
 {
-    font-size:35px;
+    font-size:200%;
 }
 @media only screen and (min-device-width: 400px) {
-    .ss-icon{font-size:80px;}
+    .ss-icon{font-size:400%;}
 }
 textarea:focus, input:focus {
-    font-size: 35px;
+    font-size: 400%;
 }
 
 input, select, textarea{
     text-decoration: none;
     background-color:#ff69b4;/*#faaab2; #FD5F00; #cccc00(204,204,0)* #ff4040(255, 64, 64)*/
-    font-size: 35px;
+    font-size: 400%;
 }
 input:focus {
     outline:none;
-    font-size: 35px;
+    font-size: 400%;
 }
 input{
     width: 80%;
 }
 @media only screen and (min-device-width: 400px) {
     textarea:focus, input:focus {
-    font-size: 80px;
+    font-size: 400%;
     }
 }/*
 @media only screen and (min-device-width: 400px) {
